@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: install-build-essential
-      run:
+      run: sudo apt-get update
 
     - name: checkout
-      uses:
+      uses: actions/checkout@v3
 
     - name: build
-      run:
+      run: make
