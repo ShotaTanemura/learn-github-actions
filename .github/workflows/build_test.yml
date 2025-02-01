@@ -1,0 +1,24 @@
+name: Build Check
+
+on:
+  pull_request:
+    branches:
+      - '*'
+  workflow_dispatch:
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: install-build-essential
+      run: sudo apt update
+      run: sudo apt upgrade
+
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: build
+      run: make all
+
+    - name: run
+      run: ./learn-github-actions
