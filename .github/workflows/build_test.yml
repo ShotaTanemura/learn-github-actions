@@ -1,16 +1,20 @@
 name: Build Check
 
 on:
+  pull_request:
+    branches:
+      - 'test*'
+  workflow_dispatch:
     
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: install-build-essential
-      run:
+      run: sudo apt-get install
 
     - name: checkout
-      uses:
+      uses: actions/checkout@v3
 
     - name: build
-      run:
+      run: cat hello.txt
