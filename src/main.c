@@ -1,4 +1,7 @@
+#include <stdio.h>
 int main(void) {
-    int i;
+    printf("Hello, World! from dev\n");
+    printf("Hello, World! from dev\n");
+
     return 0;
 }

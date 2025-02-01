@@ -1,6 +1,6 @@
 NAME		:= learn-github-actions
 CC			:= cc
-CFLAGS		:= -Wall -Wextra -Werror
+CFLAGS		:= -Wall -Wextra #-Werror
 
 SRC_FILES	:= main.c
 
