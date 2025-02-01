@@ -14,10 +14,10 @@ jobs:
       run: sudo apt-get update
 
     - name: checkout
-      uses:
+      uses: actions/checkout@v3
 
     - name: install-build-essential
       run: sudo apt install build-essential
     
     - name: build
-      run: make -C ../../Makefile
+      run: make -C ../../
