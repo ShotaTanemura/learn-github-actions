@@ -1,2 +1,2 @@
 Hello, world from Github actions.
-Hello world!
+Hello world! Hello world!
