@@ -1,5 +1,5 @@
 # learn-github-actions
-2023 年 11 月 11 日 18 時開催「30分で GitHub actions 使えるようになってみようの会！」で使用するレポジトリ
+2025 年 2 月 1 日 17 時開催「1時間で GitHub Actions を使えるようになろう！」で使用するレポジトリ
 
-# Google slide (updating)
-https://docs.google.com/presentation/d/14aty4uQ2G0SmEt-1r3HEEAUvUVd7HYNy_lmaNhS8PvI/edit?usp=sharing
+# Google slide
+https://docs.google.com/presentation/d/1aZtKGaI-ufPnsF2oDY_PywDFMQhxTst3-Sg-K78qsiw/edit?usp=sharing
