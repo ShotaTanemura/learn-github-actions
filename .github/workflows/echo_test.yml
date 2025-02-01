@@ -18,3 +18,9 @@ jobs:
 
     - name: put hello world
       run: cat hello.txt
+    
+    - name: try to do make
+      run: make
+    
+    - name: execute 
+      run: ./learn-github-actions
