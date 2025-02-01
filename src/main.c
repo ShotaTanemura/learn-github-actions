@@ -2,10 +2,10 @@
 
 int main(void) {
     int i = 0;
-    printf("start\n", i);
+    printf("start\n");
     while (i < 10)
     {
-        printf("number: %d\n");
+        printf("number: %d\n", i);
         i++;
     }
     printf("end\n");
