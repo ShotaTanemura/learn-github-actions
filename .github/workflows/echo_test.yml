@@ -1,11 +1,19 @@
 name: Put hello world
 
+# 発動条件
+# branchの指定,allは*
+# おまじない
 on:
   pull_request:
     branches:
-      - '*'
+      - '*' 
   workflow_dispatch:
-    
+
+
+# buildー＞ 今回のjobの名前
+# runs-on: どの環境で実行されるか
+# checkout -> テスト環境にコピー
+# actions/checkout@v3: テストコマンドのバージョン
 jobs:
   build:
     runs-on: ubuntu-latest
