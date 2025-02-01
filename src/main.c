@@ -5,9 +5,9 @@ int main(void) {
     printf("start\n", i);
     while (i < 10)
     {
-        printf("number: %d\n", i);
+        printf("number: %d\n");
         i++;
     }
-    printf("end\n", i);
+    printf("end\n");
     return 0;
 }
